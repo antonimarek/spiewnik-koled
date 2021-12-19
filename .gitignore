@@ -1,11 +1,9 @@
-# Misc
+# Aux files
 spiewnik_koled.*
 !spiewnik_koled.tex
 !spiewnik_koled.pdf
 
-# Cover project
+# Misc
 *.tif
 *.ai
-
-# Tex template repo
-songbook*
+*.log

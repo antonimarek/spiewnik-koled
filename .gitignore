@@ -1,0 +1,11 @@
+# Misc
+spiewnik_koled.*
+!spiewnik_koled.tex
+!spiewnik_koled.pdf
+
+# Cover project
+*.tif
+*.ai
+
+# Tex template repo
+songbook*

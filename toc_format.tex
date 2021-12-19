@@ -1,0 +1,10 @@
+\newcommand\toctitle{}
+\newcommand\toclink{}
+{\makeatletter\gdef\toclink{\@ifundefined{href}{}{{song\theSB@songsnum-\thesongnum
+                                                   .\ifnum\value{section}=0 1\else2\fi}}}}
+\newcommand\addtotoc[1]{\addtocontents{toc}{\protect\contentsline
+  {\ifnum\value{section}>0sub\fi section}{\numberline\thesongnum#1}{\thepage}\toclink}}
+\newsongkey{toc}
+  {\def\toctitle{\resettitles\addtotoc\songtitle}}
+  {\def\toctitle{\addtotoc{#1}}}
+\renewcommand\extendprelude{\showrefs\showauthors\toctitle}

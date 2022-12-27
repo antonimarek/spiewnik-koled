@@ -15,5 +15,5 @@ jobs:
       - name: Upload PDF file
         uses: actions/upload-artifact@v3
         with:
-          name: PDF
-          path: spiewnik_koled.pdf
+          name: spiewnik_koled
+          path: ./

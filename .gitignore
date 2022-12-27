@@ -1,6 +1,7 @@
 # Aux files
 spiewnik_koled.*
 !spiewnik_koled.tex
+!spiewnik_koled.pdf
 
 # Misc
 *.tif
